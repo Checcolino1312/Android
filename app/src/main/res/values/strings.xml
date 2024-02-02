@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">AnimalApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="segnalazioni">Segnalazioni</string>
+    <string name="login">ACCEDI</string>
+    <string name="register">REGISTRATI</string>
+    <string name="post">PUBBLICA</string>
+    <string name="btnScegli">SCEGLI IMMAGINE</string>
+    <string name="btnFaiFoto">FOTOCAMERA</string>
+    <string name="btnInvia">CARICA</string>
+    <string name="tipoSpesa">Spesa</string>
+    <string name="data">Data</string>
+    <string name="date">Data (gg-mm-aaaa)</string>
+    <string name="calendarViewSpesa">Inserisci data</string>
+    <string name="typeSpesa">Tipo Spesa</string>
+    <string name="textView">PROFILO UTENTE</string>
+    <string name="description">Descrizione</string>
+    <string name="tipoCura">Tipo Cura</string>
+    <string name="cura_edit">Cura</string>
+    <string name="calendarViewCura">Inserisci data</string>
+    <string name="albumfoto">IL MIO ALBUM FOTOGRAFICO</string>
+    <string name="dettagli_segnalazione_button">PRENDI IN CARICO</string>
+    <string name="per_te_ente">PER TE</string>
+    <string name="in_carico_ente">IN CARICO</string>
+    <string name="modificaprofilo">Modifica Profilo</string>
+    <string name="salva">SALVA</string>
+    <string name="btn_check_position">TROVA LA MIA POSIZIONE</string>
+    <string name="animaliInStallo">ANIMALI IN STALLO</string>
+    <string name="txt_album_fotografico">ALBUM FOTOGRAFICO</string>
+    <string name="elencoCure">ELENCO CURE</string>
+    <string name="aggiungiCura">Aggiungi Cura</string>
+    <string name="aggiungiSpesa">Aggiungi Spesa</string>
+    <string name="citta">Città</string>
+    <string name="ic_search">Cerca</string>
+    <string name="ic_favorites">Preferiti</string>
+    <string name="ic_profile">Miei Animali</string>
+    <string name="homeEnte">Segnalazioni</string>
+    <string name="inCarico">In Carico</string>
+    <string name="petsEnte">Stallo</string>
+    <string name="profileEnte">Miei Animali</string>
+    <string name="homeVet" translatable="false">Home</string>
+    <string name="inCaricoVet">In Carico</string>
+    <string name="petsVet">Stallo</string>
+    <string name="profileVet">Miei Animali</string>
+    <string name="elencospese">SEGNALAZIONI</string>
+    <string name="cerca_i_tuoi_amici">Cerca i tuoi amici</string>
+    <string name="name">Nome</string>
+    <string name="cerca_i_tuoi_amici_">Cerca i tuoi amici</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="username">Nome utente</string>
+    <string name="full_name">Nome completo</string>
+    <string name="btn_follow" translatable="false">Button</string>
+    <string name="segui">Segui</string>
+    <string name="follow">Segui</string>
+    <string name="prendi_in_carico">In carico</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="se_non_sei_registrato_clicca_qui">Se non sei registrato, Clicca qui!</string>
+    <string name="accedi">ACCEDI</string>
+    <string name="log" translatable="false">TODO</string>
+    <string name="logo" translatable="false" />
+    <string name="Tipologia" >Tipologia</string>
+    <string name="nome">Nome</string>
+    <string name="cognome">Cognome</string>
+    <string name="emailutente" translatable="false">Email</string>
+    <string name="registratibut">REGISTRATI</string>
+    <string name="passwordutenteamico" translatable="false">Password</string>
+    <string name="hai_gi_un_account_clicca_qui">Hai già un account? Clicca qui!</string>
+    <string name="logoimage" translatable="false">TODO</string>
+    <string name="fullname">Nome completo</string>
+    <string name="Username">Nome utente</string>
+    <string name="FullName">Nome completo</string>
+    <string name="nuovo">nuovo</string>
+    <string name="qrcode" translatable="false">QRCODE</string>
+    <string name="nuovoanimale">Nuovo animale</string>
+    <string name="new_pet_bluetooth_option">Nuovo animale con Bluetooth</string>
+    <string name="new_pet_bluetooth__option" translatable="false">new_pet_bluetooth_option</string>
+    <string name="imieianimali">I Miei Animali</string>
+    <string name="ciao">ciao</string>
+    <string name="items">Tipologia Utente</string>
+    <string name="type_null">tipo nullo</string>
+    <string name="Nickname">Nickname</string>
+    <string name="Nominativo">Nome e Cognome</string>
+    <string name="image" translatable="false">TODO</string>
+    <string name="nomeanimale">Nome Animale</string>
+    <string name="imagenuova" translatable="false">TODO</string>
+    <string name="todoy" translatable="false">TODO</string>
+    <string name="tastopercaricamento">Cliccare per caricare</string>
+    <string name="nuovoamicotranoi">Un nuovo amico tra noi!</string>
+    <string name="nome_animale">Nome Animale</string>
+    <string name="Specie_animale">Specie Animale</string>
+    <string name="sesso_animale_text">Sesso</string>
+    <string name="nuovaSegnalazione">Nuova Segnalazione</string>
+    <string name="descrizione">Descrizione</string>
+    <string name="veterinario">Veterinario</string>
+    <string name="ente">Ente</string>
+    <string name="utente">Utente Tradizionale</string>
+    <string name="posizione">Posizione</string>
+    <string name="invia_segnalazione">Invia Segnalazione</string>
+    <string name="padrone">Padrone Animale</string>
+    <string name="preferenza">Preferenza Cibo</string>
+    <string name="salute">Stato di Salute</string>
+    <string name="sterilizzazione">Sterilizzazione Animale</string>
+    <string name="chip" translatable="false">Chip</string>
+    <string name="eta">Eta Animale</string>
+    <string name="Conferma">Conferma Dati</string>
+    <string name="added">Animale Aggiunto!</string>
+    <string name="nomeanimal">Nome</string>
+    <string name="specie">Specie</string>
+    <string name="padronea">Padrone</string>
+    <string name="immag" translatable="false">TODO</string>
+    <string name="immagine">immagine</string>
+    <string name="tipo_segnalazione">Tipo segnalazione</string>
+    <string name="destinatari">Destinatari</string>
+    <string name="salute_animal">Salute</string>
+    <string name="spese_animal">Spese</string>
+    <string name="todoi" translatable="false">TODO</string>
+    <string name="i_miei_animali_preferiti">I MIEI ANIMALI PREFERITI</string>
+    <string name="immagine_caricata">Immagine Caricata</string>
+    <string name="nomeanimalemancante">Inserire il nome dell\'animale!</string>
+    <string name="etamancante">Inserire l\'età\n</string>
+    <string name="cibomancante">Inserire il cibo preferito dell\'animale</string>
+    <string name="chiperror">chip corretto con 12 numeri</string>
+    <string name="spesa">Spesa</string>
+    <string name="prezzo">Prezzo</string>
+    <string name="elenco_spese">ELENCO SPESE</string>
+    <string name="segnalazioni_prese_in_carico">SEGNALAZIONI IN CARICO</string>
+    <string name="i_miei_animali">I MIEI ANIMALI</string>
+    <string name="error_db">Errore nel recupero dati da db</string>
+    <string-array name="spinner_segnalazione">
+        <item>Cerco Aiuto!</item>
+        <item>Cerco Stallo</item>
+        <item>Offro Stallo</item>
+        <item>Cerco Animale</item>
+        <item>Offro Animale</item>
+    </string-array>
+    <string-array name="sessoa">
+        <item>Maschio</item>
+        <item>Femmina</item>
+    </string-array>
+    <string-array name="sterilizzazioneanimale">
+        <item>Sterilizzato</item>
+        <item>Non sterilizzato</item>
+    </string-array>
+    <string-array name="statosalute">
+        <item>Ottimo</item>
+        <item>Discreto</item>
+        <item>Alti e bassi</item>
+        <item>Acciaccato</item>
+        <item>Me la cavo</item>
+        <item>Pessimo</item>
+    </string-array>
+    <string-array name="speciea">
+        <item>Cane</item>
+        <item>Gatto</item>
+        <item>Rana</item>
+        <item>Anatra</item>
+        <item>Usignolo</item>
+        <item>Pulcino</item>
+        <item>Lupo</item>
+        <item>Volpe</item>
+        <item>Zebra</item>
+        <item>Coccodrillo</item>
+        <item>Tartaruga</item>
+        <item>Pappagallo</item>
+        <item>Iguana</item>
+        <item>Fenicottero-rosa</item>
+        <item>Foca Monaca</item>
+    </string-array>
+    <item name="fullname" type="id" />
+</resources>

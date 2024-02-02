@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0000"
+    android:orientation="vertical"
+    tools:context=".Fragment.Profilo_Fragment">
+
+    <TextView
+        android:id="@+id/imieianimali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/coustard"
+        android:hint="@string/i_miei_animali"
+        android:padding="14dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textSize="28sp" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container_animali"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/mieianimali_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF" />
+        </ScrollView>
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:id="@+id/inserire"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_gravity="bottom|end"
+            android:backgroundTint="@color/main_color"
+            app:fab_addButtonColorNormal="@color/main_color">
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/nuovomanuale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:backgroundTint="@color/main_color"
+                app:fab_icon="@mipmap/ic_pets_black_24dp"
+                app:fab_title="@string/nuovoanimale" />
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/add_qr_code_pet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                app:backgroundTint="@color/main_color"
+                app:fab_icon="@mipmap/baseline_qr_code_scanner_black_18"
+                app:fab_title="@string/qrcode" />
+
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    </FrameLayout>
+
+
+</LinearLayout>

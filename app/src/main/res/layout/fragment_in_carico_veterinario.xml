@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.InCarico_Fragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/elencospese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/coustard"
+        android:hint="@string/segnalazioni_prese_in_carico"
+        android:padding="14dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textSize="28dp" />
+
+
+    <TextView
+        android:id="@+id/textnull"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/coustard"
+        android:visibility="gone"
+        android:padding="14dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textSize="28dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_incarico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/elencospese"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF" />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FFFFFF"
+
+    tools:context=".Fragment.Spese_Animale_Fragment">
+
+<TextView
+android:id="@+id/elencospese"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="14dp"
+android:textSize="28sp"
+android:fontFamily="@font/coustard"
+android:textAlignment="center"
+android:hint="@string/elenco_spese"
+android:textColorHint="@color/black" />
+
+<androidx.recyclerview.widget.RecyclerView
+android:id="@+id/recycler_view_spese_animali"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_below="@id/elencospese"
+    android:paddingTop="10dp"
+    android:layout_marginBottom="60dp" />
+
+<Button
+android:id="@+id/aggiungiSpesa"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+android:layout_centerHorizontal="true"
+android:layout_marginBottom="16dp"
+    android:backgroundTint="@color/main_color"
+    android:text="@string/aggiungiSpesa" />
+
+    </RelativeLayout>
